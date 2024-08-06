@@ -19,7 +19,7 @@ async def app_init():
     await init_beanie(
         database=client_db,
         document_models=[
-            User,
+            User
         ]
     )
 
